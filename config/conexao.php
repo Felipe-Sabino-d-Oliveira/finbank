@@ -3,12 +3,13 @@
 class Conexao {
     private static $host = 'localhost';
     private static $dbname = 'finbank';
-    private static $usuario = 'root';
-    private static $senha = '';
+    private static $user = 'root';
+    private static $password = '';
+    private static $port = '8889';
 
     public static function conectar() {
         try {
-            $pdo = new PDO("mysql:host=" . self::$host . ";dbname=" . self::$dbname, self::$usuario, self::$senha);
+            $pdo = new PDO("mysql:host=" . self::$host . ";port=" . self::$porta . ";dbname=" . self::$dbname, self::$user, self::$password);
             $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
             return $pdo;
         } catch (PDOException $e) {
