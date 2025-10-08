@@ -10,9 +10,9 @@
     <link href="assets/css/estilo.css" rel="stylesheet" />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-5">
       <!-- header.php -->
-      <div class="container mt-4">
+      <div class="container my-2">
         <a class="navbar-brand" href="index.php">FinBank</a>
         <div class="collapse navbar-collapse">
           <ul class="navbar-nav ms-auto">
@@ -26,6 +26,4 @@
         </div>
       </div>
     </nav>
-    <div class="container mt-4"></div>
-  </body>
-</html>
+

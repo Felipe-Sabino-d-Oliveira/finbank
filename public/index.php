@@ -4,7 +4,7 @@ require_once '../config/erros.php';
 require_once '../templates/header.php';
 ?>
 
-<div class="text-center">
+<div class="text-center" style="height: 100%; margin-block: auto;">
     <h1 class="mb-4">Bem-vindo ao FinBank 💳</h1>
     <p class="lead">Gerencie suas contas bancárias com segurança e praticidade.</p>
 
