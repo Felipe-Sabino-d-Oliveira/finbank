@@ -8,14 +8,17 @@
 </head>
 <body>
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <div class="container-fluid">
-        <a class="navbar-brand" href="index.php">FinBank</a>
-        <div class="collapse navbar-collapse">
-            <ul class="navbar-nav ms-auto">
-                <li class="nav-item"><a class="nav-link" href="criar_conta.php">Criar Conta</a></li>
-                <li class="nav-item"><a class="nav-link" href="listar_contas.php">Listar Contas</a></li>
-            </ul>
-        </div>
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.php">FinBank</a>
+    <div class="collapse navbar-collapse">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item"><a class="nav-link" href="criar_conta.php">Criar Conta</a></li>
+        <li class="nav-item"><a class="nav-link" href="listar_contas.php">Listar Contas</a></li>
+        <li class="nav-item"><a class="nav-link" href="operacoes.php">Operações</a></li>
+        <li class="nav-item"><a class="nav-link" href="relatorio.php">Relatório</a></li>
+        <li class="nav-item"><a class="nav-link" href="editar_conta.php">Editar Conta</a></li>
+        <li class="nav-item"><a class="nav-link" href="historico.php">Histórico</a></li>
+      </ul>
     </div>
+  </div>
 </nav>
-<div class="container mt-4">
