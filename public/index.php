@@ -14,45 +14,62 @@ require_once '../templates/header.php';
 
     <p class="lead">Gerencie suas contas bancárias com segurança e praticidade.</p>
 
-    <div class="row justify-content-center mt-5">
-
-        <div class="col-md-4">
-
-            <div class="card border-primary">
-
-                <div class="card-body">
-
-                    <h5 class="card-title">Criar Nova Conta</h5>
-
-                    <p class="card-text">Cadastre uma conta corrente ou poupança.</p>
-
-                    <a href="criar_conta.php" class="btn btn-primary">Criar Conta</a>
-
-                </div>
-
-            </div>
-
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+    <div class="col">
+      <div class="card h-100">
+        <div class="card-body">
+          <h5 class="card-title">Criar Conta</h5>
+          <p class="card-text">Abra uma nova conta bancária.</p>
+          <a href="criar_conta.php" class="btn btn-primary">Acessar</a>
         </div>
-
-        <div class="col-md-4 mt-3 mt-md-0">
-
-            <div class="card border-success">
-
-                <div class="card-body">
-
-                    <h5 class="card-title">Listar Contas</h5>
-
-                    <p class="card-text">Veja todas as contas cadastradas no sistema.</p>
-
-                    <a href="listar_contas.php" class="btn btn-success">Ver Contas</a>
-
-                </div>
-
-            </div>
-
-        </div>
-
+      </div>
     </div>
+    <div class="col">
+      <div class="card h-100">
+        <div class="card-body">
+          <h5 class="card-title">Listar Contas</h5>
+          <p class="card-text">Visualize todas as contas cadastradas.</p>
+          <a href="listar_contas.php" class="btn btn-primary">Acessar</a>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <div class="card-body">
+          <h5 class="card-title">Operações Bancárias</h5>
+          <p class="card-text">Realize depósitos, saques, transferências e rendimentos.</p>
+          <a href="operacoes.php" class="btn btn-primary">Acessar</a>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <div class="card-body">
+          <h5 class="card-title">Relatório</h5>
+          <p class="card-text">Gere relatórios detalhados das contas.</p>
+          <a href="relatorio.php" class="btn btn-primary">Acessar</a>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <div class="card-body">
+          <h5 class="card-title">Editar Conta</h5>
+          <p class="card-text">Atualize os dados de uma conta existente.</p>
+          <a href="editar_conta.php" class="btn btn-primary">Acessar</a>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <div class="card-body">
+          <h5 class="card-title">Histórico de Operações</h5>
+          <p class="card-text">Consulte o histórico de movimentações de uma conta.</p>
+          <a href="historico.php" class="btn btn-primary">Acessar</a>
+        </div>
+      </div>
+    </div>
+  </div>
 
 </div>
 
