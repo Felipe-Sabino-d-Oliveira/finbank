@@ -14,7 +14,7 @@ require_once '../templates/header.php';
 
     <p class="lead">Gerencie suas contas bancárias com segurança e praticidade.</p>
 
-    <div class="row row-cols-1 row-cols-md-2 g-4">
+    <div class="row row-cols-1 row-cols-md-2 g-4" style="width: 80%; margin: 0 auto;">
     <div class="col">
       <div class="card h-100">
         <div class="card-body">
