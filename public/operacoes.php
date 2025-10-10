@@ -26,7 +26,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             $contaOrigem = new ContaPoupanca($dadosOrigem['titular'], $dadosOrigem['numeroConta'], $dadosOrigem['taxaRendimento']);
         }
 
-        $contaOrigem->depositar($dadosOrigem['saldo']);
+        $contaOrigem->carregarSaldo($dadosOrigem['saldo']);
 
         if ($acao === 'depositar') {
             $contaOrigem->depositar($valor);
